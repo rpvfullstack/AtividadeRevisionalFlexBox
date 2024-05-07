@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+
+body{
+    font-family:roboto,sans-serif;
+}
+
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+
+/* .fatherbox1{
+    font-size: 64px;
+    
+}
+
+#box1{
+    font-size: 0.875rem;
+} */
+
+/* ---------------------------------------------------------------- */
+
+
+.fatherbox1 {
+    display: flex;
+}
+
+/* .box1 {
+    background-color: #f2f;
+    border: 1px solid #523;
+
+}
+
+.box2 {
+    background-color: #f2f;
+    border: 1px solid #523;
+
+}
+
+.box3 {
+    background-color: #f2f;
+    border: 1px solid #523;
+
+} */
+
+.boxAll{
+    background-color: paleturquoise;
+    width: 100px;
+    height: 80px;
+    border: 1px solid #523;
+
+}
+
+.fatherbox2{
+    display: flex;
+    justify-content: center;
+}
+
+.fatherbox3{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.fatherbox5{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    
+}
+
+.fatherbox6{
+    display: flex;
+    flex-direction:column;
+    align-items: flex-end;
+    
+}
+
+.fatherbox7{
+    display: flex;
+    justify-content:space-between;
+   
+}
+
+.fatherbox8{
+    display: flex;
+    justify-content:space-around;
+   
+}
